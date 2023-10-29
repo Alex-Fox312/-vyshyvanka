@@ -32,16 +32,22 @@ img {
   max-width: 100%;
 }
 
+.selected {
+  color: #ECD979;
+}
+
 /**
   |============================
   | 
   |============================
 */
-@media screen and (min_width:320px) {
-  
 
-  
-}
+
+/**
+  |============================
+  | General - styles
+  |============================
+*/
 
 
 .header-section {
@@ -84,6 +90,7 @@ display: none;
 
 }
 .header-adress {
+  display: none;
 }
 .header-adress-link {
 }
@@ -99,11 +106,11 @@ align-items: center;
 justify-content: center;
 width: 44px;
 height: 44px;
-padding: 8px;
 border-radius: 15px;
 border: 1px solid rgba(252, 249, 249, 0.10);
 background: rgba(252, 249, 249, 0.10);
 }
+
 .header-soc-item:hover,
 .header-soc-item:focus {
 border: 1px solid var(--yellow, #ECD979);
@@ -111,6 +118,7 @@ background-color: transparent;
 }
 .header-soc-link {
 display: flex;
+padding: 8px;
 }
 .header-soc-icon{
 fill: #FCF9F9;
@@ -225,9 +233,7 @@ font-size: 14px;
 line-height: 1.29; /* 128.571% */
 text-transform: uppercase;
 }
-.mob-nav-link:hover {
-color: #FCF9F9;
-}
+
 .header-nav-link {
 }
 
@@ -235,6 +241,8 @@ color: #FCF9F9;
 .header-container {
   max-width: 375px;
 }
+
+
 
 }
 /**
@@ -304,7 +312,7 @@ line-height: 1.43; /* 116.667% */
 padding: 14px 28px;
 }
 .mob-close-btn {
-  width: 44px;
+width: 44px;
 height: 44px;
 }
 .mob-close-icon {
@@ -326,3 +334,96 @@ height: 44px;
   | 
   |============================
 */
+
+/**
+  |============================
+  | 1280
+  |============================
+*/
+@media screen and (min-width: 1280px) {
+  .header-container {
+  max-width: 1280px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.header-logo-link {
+  margin-right: 60px;
+}
+
+.header-nav {
+  display: flex;
+  margin-right: auto;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 25px;
+}
+
+.header-nav-item {
+
+}
+
+.header-nav-link {
+color: var(--white, #FCF9F9);
+font-size: 14px;
+line-height: 1.29; /* 128.571% */
+text-transform: uppercase;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #ECD979;
+}
+
+.selected {
+  color: #ECD979;
+}
+
+.header-adress {
+  display: flex;
+  margin-right: 20px;
+}
+
+.header-adress-link {
+font-family: inherit;
+font-size: 14px;
+font-style: normal;
+line-height: 1.43; /* 142.857% */
+text-transform: uppercase;
+padding: 14px 28px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  border-color: #ECD979;
+}
+
+.header-soc-list {
+  margin-right: 0;
+}
+
+.open-menu {
+  display: none;
+}
+
+}
+
+/**
+  |============================
+  | 1440
+  |============================
+*/
+
+@media screen and (min-width: 1440px) {
+
+.header-container {
+  max-width: 1440px;
+}
+  
+}
