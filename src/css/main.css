@@ -44,6 +44,10 @@ ul {
   padding: 0;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 button {
   cursor: pointer;
   padding: 0;
