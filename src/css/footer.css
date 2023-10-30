@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 320px) {
   .footer-container {
+    margin: 0 auto;
     width: 100%;
     height: 649px;
     padding-top: 40px;
