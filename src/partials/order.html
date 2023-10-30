@@ -7,19 +7,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="../css/order.css">
 </head>
 <body>
     <section class="container">
         <div class="container-order">
+            <div class="img-wrap">
+                <img 
+                    srcset="../images-order/Image-order-mob-1x.jpeg 1x, ../images-order/Image-order-mob-2x.jpeg 2x" 
+                    src="../images-order/Image-order-mob-1x.jpeg" 
+                    alt="girl" 
+                    width="375"
+                    height="550"
+                    class="order-img">
+            </div>
             <h2 class="text-order"><span class="text-yelow">Your order</span> is our priority: Personalized approach and quality of service</h2>
             <form class="order-form">
-                <input type="text" class="order-input" />
-                <input type="text" class="order-input" />
-                
-                <button type="submit">Send
+                <input type="text" name="user-name" class="order-input" placeholder="Enter your full name" required />
+                <input type="email" name="user-email" class="order-input" placeholder="Enter your email " required />
+                <label for="user-text"></label>
+                <textarea name="user-text" id="user-text" class="order-textarea" placeholder="Comments"></textarea>
+                <button type="submit" class="order-btn">Send
                     <svg class="button-icon" width="26" height="10">
-                        <use href=""></use>
+                        <use href="../images-order/symbol-defs.svg#icon-untitled"></use>
                     </svg>
                 </button>
             </form>
@@ -27,7 +44,3 @@
 </section>
 </body>
 </html>
-
-
-
-

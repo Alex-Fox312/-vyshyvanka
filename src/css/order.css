@@ -28,22 +28,28 @@ img {
 /* =============================================*/
 
 .container {
+    margin: 0 auto;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     background-color: #1C2225;
     padding: 80px 20px 81px 20px;
 }
 
 .container-order {
+    max-width: 335px;
+}
+
+.img-wrap {
+}
+
+.order-img {
+    margin-bottom: 80px;
 }
 
 .text-order {
-    width: 100%;
-    max-width: 375px;
     color: var(--white, #FCF9F9);
     font-family: Manrope;
     font-size: 32px;
@@ -64,5 +70,75 @@ img {
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: transparent;
     margin-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.order-input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.order-textarea {
+    width: 100%;
+    height: 196px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    margin-bottom: 40px;
+    resize: none;
+    background-color: transparent;
+    color: rgba(252, 249, 249, 0.50);
+}
+
+.order-textarea::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+.order-btn {
+    display: flex;
+    height: 49px;
+    padding: 14px 36px 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--white, #FCF9F9);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    text-transform: uppercase; 
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    cursor: pointer;
+}
+
+.button-icon {
+    fill: var(--yellow, #ECD979);
+}
+
+
+@media screen and (min-width: 320) {
+    .container-order {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768) {
+    .container-order {
+        max-width: 744px;
+    }
 }
 
