@@ -1,3 +1,5 @@
+@import url('./main.css');
+
 @media screen and (min-width: 320px) {
   .footer-container {
     width: 100%;
@@ -5,7 +7,7 @@
     padding-top: 40px;
     padding-left: 20px;
     display: block;
-    background-image: url(../images.foot/vysh-mob.png);
+    background-image: url(../images/images.foot/vysh-mob.png);
     background-repeat: no-repeat;
     background-position: bottom;
     border-top: 1px solid rgba(252, 249, 249, 0.1);
@@ -69,7 +71,7 @@
     max-width: 738px;
     height: 370px;
     padding-left: 32px;
-    background-image: url(../images.foot/vysh-tab.png);
+    background-image: url(../images/images.foot/vysh-tab.png);
     background-position: top right;
   }
 
@@ -99,7 +101,7 @@
     max-width: 1250px;
     height: 363px;
     padding-left: 100px;
-    background-image: url(../images.foot/vysh-desk.png);
+    background-image: url(../images/images.foot/vysh-desk.png);
   }
 
   .footer-text {
@@ -117,6 +119,6 @@
 @media screen and (min-width: 1440px) {
   .footer-container {
     max-width: 1410px;
-    background-image: url(../images.foot/vysh-desk-two.png);
+    background-image: url(../images/images.foot/vysh-desk-two.png);
   }
 }
