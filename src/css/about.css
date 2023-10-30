@@ -1,28 +1,4 @@
-h1,
-h3,
-h4,
-h5,
-h6,
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
 
-a {
-    color: currentColor;
-    text-decoration: none
-}
-
-button {
-    cursor: pointer
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto
-}
 
 @media screen and (min-width: 375px) {
     .container {
@@ -111,7 +87,7 @@ body {
 }
 
 .about-us {
-    background-image: url();
+    background-image: url(../images/images-about/elements-mob-min.png);
     background-repeat: no-repeat;
     background-position: bottom 0px right 0px;
     background-size: 250px 408px
@@ -121,7 +97,7 @@ body {
 screen and (min-resolution: 2dppx) and (min-width: 375px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     .about-us {
-        background-image: url()
+        background-image: url(../images/images-about/girl\ and\ boy-mob-2x.jpg)
     }
 }
 
@@ -158,7 +134,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     }
 
     .about-us {
-        background-image: url();
+        background-image: url(../images/images-about/elements-plan-min.png);
         background-repeat: no-repeat;
         background-position: bottom 0px right 0px;
         background-size: 370px 485px
@@ -168,7 +144,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         .about-us {
-            background-image: url()
+            background-image: url(../images/images-about/elements-plan-2x-min.png)
         }
     }
 }
@@ -200,7 +176,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     }
 
     .about-us {
-        background-image: url();
+        background-image: url(../images/images-about/elements-desk-min.png);
         background-repeat: no-repeat;
         background-position: bottom 0px right 0px;
         background-size: 385px 485px
@@ -210,7 +186,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         .about-us {
-            background-image: url()
+            background-image: url(../images/images-about/elements-desk-2x-min.png)
         }
     }
 }
@@ -233,7 +209,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     }
 
     .about-us {
-        background-image: url();
+        background-image: url(../images/images-about/elements-desk-min.png);
         background-repeat: no-repeat;
         background-position: bottom 0px right 0px;
         background-size: 545px 485px
@@ -243,7 +219,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
         .about-us {
-            background-image: url()
+            background-image: url(../images/images-about/elements-desk-2x-min.png)
         }
     }
 }
