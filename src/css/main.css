@@ -32,7 +32,7 @@ html {
 }
 
 a {
-  color: currentColor;
+  color: #FCF9F9;
   text-decoration: none;
   padding: 0;
   margin: 0;
@@ -46,7 +46,6 @@ ul {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 
 button {
