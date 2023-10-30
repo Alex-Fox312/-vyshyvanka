@@ -16,8 +16,8 @@
   |============================
 */
 
-
-.header-section {
+@media screen and (min-width: 320px) {
+  .header-section {
   padding-top: 20px;
 }
 
@@ -185,6 +185,9 @@
   line-height: 1.29; /* 128.571% */
   text-transform: uppercase;
 }
+}
+
+
 
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
