@@ -27,26 +27,27 @@ img {
 
 /* =============================================*/
 
+@import url('./main.css'); 
+
+@media screen and (min-width: 320) {
+
 .container {
-    margin: 0 auto;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
     width: 100%;
     background-color: #1C2225;
-    padding: 80px 20px 81px 20px;
 }
 
 .container-order {
     max-width: 335px;
-}
-
-.img-wrap {
+    padding: 80px 20px 81px 20px;
+    margin: 0 auto;
 }
 
 .order-img {
-    margin-bottom: 80px;
+    width: 100%;
 }
 
 .text-order {
@@ -109,6 +110,7 @@ img {
 
 .order-btn {
     display: flex;
+    margin: 0 auto;
     height: 49px;
     padding: 14px 36px 14px 36px;
     justify-content: center;
@@ -129,16 +131,25 @@ img {
     fill: var(--yellow, #ECD979);
 }
 
+.second-img {
+    display: none;
+}
 
-@media screen and (min-width: 320) {
-    .container-order {
+}
+
+@media screen and (min-width: 375) {
+    .container {
         max-width: 375px;
     }
 }
 
 @media screen and (min-width: 768) {
-    .container-order {
+    .container {
         max-width: 744px;
+    }
+
+    .order-img {
+        width: 768px;
     }
 }
 
