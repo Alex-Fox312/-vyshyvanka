@@ -17,8 +17,7 @@
 @media screen and (min-width: 1280px) {
     .about-us-container {
         width:1280px;
-        padding-left: 100px;
-        padding-right: 100px;
+       margin-top: 150px;
     }
 }
 body {
@@ -27,14 +26,15 @@ body {
     background-color: #1C2225;
 }
 .about-us-container {
-    padding-left: 20px;
-    padding-right: 20px;
+    
+    
 }
 .about-us {
     background-color: #1C2225;
 }
 .about-us-container {
-    padding: 40px 20px;
+    
+
 }
 .about-us-wraper {
     display: flex;
@@ -89,7 +89,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) {
     .about-us-container {
-        padding: 50px 32px;
+        
     }
     .about-us-wraper {
         gap: 40px;
@@ -129,7 +129,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
 }
 @media screen and (min-width: 1280px) {
     .about-us-container {
-        padding: 75px 100px
+        margin: auto;
     }
     .about-us-wraper {
         min-width: 436px;
@@ -168,13 +168,16 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     }
     .about-us-text-container {
         display: block;
-        margin-top: 78px;
+        
         margin-bottom: 40px;
     }
     .about-us-img {
         max-width: none;
         width: 709px;
         height: 545px;
+    }
+    .about-us-container{
+        
     }
     .about-us {
         background-image: url(../images/images-about/elements-desk-min.png);
