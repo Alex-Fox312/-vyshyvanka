@@ -24,6 +24,8 @@ ul {
 
   /*------ MEDIA 375 ---------------------*/
 
+
+  
 @media screen and (min-width: 320px) {
   .container {
     max-width: 375px;
