@@ -1,5 +1,5 @@
 .collection-cont {
-  background-image: url(../images/img-collection/elementsmob.png);
+  background-image: url(./images/img-collection/elementsmob.png);
   background-position: 0px 300px;
   background-repeat: no-repeat;
   max-width: 375px;
@@ -56,7 +56,7 @@
   border-radius: 4px;
 }
 .background-image {
-  background-image: url(../images/img-collection/Girlmob.jpg);
+  background-image: url(./images/img-collection/Girlmob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -88,12 +88,12 @@
     margin-top: 150px;
   }
   .collection-cont {
-    background-image: url(../images/img-collection/elements.png);
+    background-image: url(./images/img-collection/elements.png);
     background-position: -55px 220px;
     min-width: 768px;
   }
   .background-image {
-    background-image: url(../images/img-collection/Girltab.jpg);
+    background-image: url(./images/img-collection/Girltab.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 768px;
@@ -111,12 +111,12 @@
     max-width: 347px;
   }
   .collection-cont {
-    background-image: url(../images/img-collection/elements.png);
+    background-image: url(./images/img-collection/elements.png);
     background-position: 0px 222px;
     min-width: 1280px;
   }
   .background-image {
-    background-image: url(../images/img-collection/Girldesk.jpg);
+    background-image: url(./images/img-collection/Girldesk.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 1282px;
@@ -130,12 +130,12 @@
     max-width: 400px;
   }
   .collection-cont {
-    background-image: url(../images/img-collection/elements.png);
+    background-image: url(./images/img-collection/elements.png);
     background-position: 0px 230px;
     min-width: 1440px;
   }
   .background-image {
-    background-image: url(../images/img-collection/Girl.jpg);
+    background-image: url(./images/img-collection/Girl.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 1440px;
@@ -149,27 +149,27 @@
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
   .background-image {
-    background-image: url(../images/img-collection/Girl@2xmob.jpg);
+    background-image: url(./images/img-collection/Girl@2xmob.jpg);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .background-image {
-    background-image: url(../images/img-collection/Girl@2xtab.jpg);
+    background-image: url(./images/img-collection/Girl@2xtab.jpg);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width:1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .background-image {
-        background-image: url(../images/img-collection/Girl@2xdesk.jpg);
+        background-image: url(./images/img-collection/Girl@2xdesk.jpg);
     }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
 screen and (min-resolution: 2dppx) and (min-width: 1440px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .background-image {
-        background-image: url(../images/img-collection/Girl@2x.jpg);
+        background-image: url(./images/img-collection/Girl@2x.jpg);
     }
 }
