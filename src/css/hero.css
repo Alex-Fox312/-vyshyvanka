@@ -18,17 +18,9 @@ ul {
   padding: 0 15px 0 15px;
 }
 
-
-/* ----HERO----- */
-
-
-  /*------ MEDIA 375 ---------------------*/
-
-
   
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 375px;
   }
 
 
@@ -37,8 +29,7 @@ ul {
 }
 
 .hero-box {
-padding-top: 60px;
-  
+  padding-top: 60px;
   width: 100%;
   margin: 0 auto;
   padding-left: 20px;
@@ -55,19 +46,14 @@ padding-top: 60px;
 width: 100%;
 }
 
-.hero-center-box {
- 
-}
-
 .hero-title {
 width: 335px;
 height: 216px;
-  margin-bottom: 20px;
-  color: #FCF9F9;
+margin-bottom: 20px;
+color: #FCF9F9;
 font-size: 44px;
-font-style: normal;
 font-weight: 400;
-line-height: 54px; /* 122.727% */
+line-height: 1.13; 
 letter-spacing: -1.32px;
 }
 
@@ -80,11 +66,12 @@ p {
 }
 
 .hero-order-btn {
-  display: flex;
-  color: var(--white, #FCF9F9);
+color: var(--white, #FCF9F9);
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.56px;
 text-transform: uppercase;
-justify-content: center;
-align-items: center;
 gap: 10px;
 border-radius: 15px;
 border: 1px solid rgba(252, 249, 249, 0.10);
@@ -128,9 +115,7 @@ letter-spacing: -0.56px;
 .star-text {
   color: rgba(252, 249, 249, 0.40);
   text-align: center;
-  font-family: Manrope;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.64px;
@@ -142,6 +127,14 @@ letter-spacing: -0.56px;
 }
 }
 
+/*------ MEDIA 375 ---------------------*/
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
 
 /*------ MEDIA 768 ---------------------*/
 
@@ -150,13 +143,6 @@ letter-spacing: -0.56px;
    max-width: 768px;
   }
 
-  .hero .container { 
-  }
-
-  .hero {
-    margin: 0 auto; 
-  } 
-  
   .hero-box {
     padding: 80px 32px 0 32px;
     display: flex;
@@ -165,7 +151,6 @@ letter-spacing: -0.56px;
   .tab-box {
     display: flex;
     flex-direction: column-reverse;
-    argin-top: 26px;
     margin-bottom: 100px;
   }
 
@@ -182,16 +167,11 @@ letter-spacing: -0.56px;
   width: 549px;
   height: 192px;
   margin-bottom: 40px;
-  color: #FCF9F9;
   font-size: 54px;
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: -0.03em;
   margin-top: 26px;
-  }
-  
-  .hero-title-ukr {
-    color:#ECD979;
   }
   
   p {
@@ -207,17 +187,11 @@ letter-spacing: -0.56px;
   font-weight: 600;
   letter-spacing: -0.56px;
   }
-  
-  .hero-order-btn:hover,
-  .hero-order-btn:focus {
-    border-color: #ECD979;
-  }
-  
+
   .hero-right-box {
     display: flex;
     flex-direction: column;
     margin-left: 0 auto;
-    width: 157px;
   }
   
   .star-box {
@@ -236,6 +210,7 @@ letter-spacing: -0.56px;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    line-height: normal;
     letter-spacing: -0.64px;
     margin-top: 16px;
   }
@@ -249,16 +224,11 @@ letter-spacing: -0.56px;
   
 }
 
-
-
   /*------ MEDIA 1280 ---------------------*/
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-  }
-
-  .hero .container {
   }
 
   .hero {
@@ -296,16 +266,10 @@ letter-spacing: -0.56px;
     height: 192px;
     margin-bottom: 40px;
     margin-left:0;
-    color: #FCF9F9;
     font-size: 54px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.19;
     letter-spacing: -0.03em;
-  }
-  
-  .hero-title-ukr {
-    color:#ECD979;
   }
   
   p {
@@ -343,15 +307,14 @@ letter-spacing: -0.56px;
   }
   
   .star-text {
-    color: rgba(252, 249, 249, 0.40);
-    text-align: center;
-    font-family: Manrope;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.64px;
-    margin-top: 16px;
+    margin-top: 14px;
+    margin-left: 15px;
+    width: 115px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
   
   .vyshyvka-box {
@@ -377,7 +340,6 @@ letter-spacing: -0.56px;
     width: 632px;
     height: 222px;
     font-size: 64px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1,16;
     letter-spacing: -1.92px;
