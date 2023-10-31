@@ -144,13 +144,12 @@ letter-spacing: -0.56px;
 /*------ MEDIA 768 ---------------------*/
 
 @media screen and (min-width: 768px) {
-  .container {
-   max-width: 768px;
-  }
+  
 
   .hero-box {
     padding: 80px 32px 0 32px;
     display: flex;
+    max-width: 768px;
   }
   
   .tab-box {
@@ -218,9 +217,7 @@ letter-spacing: -0.56px;
   /*------ MEDIA 1280 ---------------------*/
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
+  
 
   .hero {
     width: calc(100% - 200px);
@@ -235,6 +232,7 @@ letter-spacing: -0.56px;
     margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
+    max-width: 1280px;
   }
   
   .tab-box {
@@ -280,12 +278,12 @@ letter-spacing: -0.56px;
 /*------ MEDIA 1440 ---------------------*/
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .hero-box {
     max-width: 1440px;
   }
 
   .hero-title {
-    width: 632px;
+    width: 630px;
     height: 222px;
     font-size: 64px;
     font-weight: 400;
