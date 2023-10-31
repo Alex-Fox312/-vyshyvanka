@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 375px) {
     .container {
         width: 375px;
         margin-left: auto;
@@ -94,9 +94,9 @@ body {
     background-size: 250px 408px
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 330px),
-screen and (min-resolution: 2dppx) and (min-width: 320px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 375px),
+screen and (min-resolution: 2dppx) and (min-width: 375px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 375px) {
     .about-us {
         background-image: url(../images/images-about/elements-mob-2x-min.png)
     }
