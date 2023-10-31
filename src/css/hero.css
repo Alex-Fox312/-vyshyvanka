@@ -15,7 +15,7 @@ ul {
   list-style: none;
   margin: 0 auto;
 }
-.container {
+.hero-box {
   max-width: 320px;
   padding: 0 15px 0 15px;
 }
@@ -23,9 +23,7 @@ ul {
   
 @media screen and (min-width: 320px) {
  
-.hero {
-  margin: 0 auto;
-}
+
 
 .hero-box {
   padding-top: 60px;
@@ -129,7 +127,7 @@ letter-spacing: -0.56px;
 /*------ MEDIA 375 ---------------------*/
 
 @media screen and (min-width: 375px) {
-  .container {
+  .hero-box {
     max-width: 375px;
     margin: 0 auto;
   }
@@ -229,7 +227,6 @@ letter-spacing: -0.56px;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
     max-width: 1280px;
