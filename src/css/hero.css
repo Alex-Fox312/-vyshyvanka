@@ -272,10 +272,6 @@ letter-spacing: -0.56px;
     letter-spacing: -0.03em;
   }
   
-  p {
-    margin: 0;
-  }
-  
   .hero-order-btn {
   font-size: 16px;
   font-weight: 600;
@@ -288,47 +284,18 @@ letter-spacing: -0.56px;
   margin-top: 40px;
   }
   
-  
   .hero-right-box {
     display: flex;
     flex-direction: column;
     margin-left: 0 auto;
   }
   
-  .star-box {
-    margin-top: 14px;
-    margin-left: 15px;
-    width: 115px;
-    height: 111px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .star-text {
-    margin-top: 14px;
-    margin-left: 15px;
-    width: 115px;
-    height: 111px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
   .vyshyvka-box {
-    width: 139px;
-    height: 197px;
     margin-top: 322px;
-    display: flex;
   }
 
   }
   
-
-
-
 /*------ MEDIA 1440 ---------------------*/
 
 @media screen and (min-width: 1440px) {
