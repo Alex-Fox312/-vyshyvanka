@@ -1,0 +1,333 @@
+/**
+  |============================
+  | 
+  |============================
+*/
+
+@import url('./main.css');
+
+.selected {
+  color: #ecd979;
+}
+
+/**
+  |============================
+  | General - styles
+  |============================
+*/
+
+@media screen and (min-width: 320px) {
+  .header-section {
+    padding-top: 20px;
+  }
+
+  .header-container {
+    min-width: 320px;
+    max-width: 375px;
+    height: 52px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+  }
+  .header-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 39px;
+    margin-right: auto;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-adress {
+    display: none;
+  }
+
+  .header-soc-list {
+    margin: 0;
+    display: flex;
+    gap: 12px;
+    margin-right: 12px;
+  }
+  .header-soc-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background: rgba(252, 249, 249, 0.1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-soc-item:hover,
+  .header-soc-item:focus {
+    border: 1px solid var(--yellow, #ecd979);
+    background-color: transparent;
+  }
+  .header-soc-link {
+    display: flex;
+    padding: 8px;
+  }
+  .header-soc-icon {
+    fill: #fcf9f9;
+    opacity: 0.8;
+  }
+  /**
+  |============================
+  | Mob menu
+  |============================
+*/
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .open-menu {
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 24px;
+    border: transparent;
+    background-color: transparent;
+    padding: 0;
+    stroke: #ecd979;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .open-menu:hover,
+  .open-menu:focus,
+  .open-menu:active {
+    stroke: #fcf9f9;
+  }
+  .open-menu-icon {
+    width: 100%;
+    height: 100%;
+  }
+  .mob-nav-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 274px;
+    height: 100%;
+    background-color: #ecd979;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url(../images/vyshyv-menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .adr-btn-position {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 186px;
+  }
+
+  .mob-adress-link {
+    font-family: inherit;
+    font-style: normal;
+    color: #1c2225;
+    font-size: 12px;
+    line-height: 1.17; /* 116.667% */
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.1);
+  }
+  .mob-close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    stroke: black;
+  }
+
+  .mob-close-icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mob-nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+  }
+
+  .mob-nav-link {
+    color: #1c2225;
+    font-size: 14px;
+    line-height: 1.29; /* 128.571% */
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .header-container {
+    max-width: 375px;
+  }
+}
+/**
+  |============================
+  | 768
+  |============================
+*/
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header-soc-list {
+    margin-right: 20px;
+  }
+
+  /*      Mob-menu       */
+
+  .open-menu {
+    fill: #fcf9f9;
+    width: 44px;
+    height: 30px;
+  }
+
+  .mob-nav-container {
+    min-width: 380px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .adr-btn-position {
+    margin-bottom: 223px;
+  }
+
+  .mob-adress-link {
+    font-size: 14px;
+    line-height: 1.43; /* 116.667% */
+    padding: 14px 28px;
+  }
+  .mob-close-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .mob-nav-list {
+    gap: 25px;
+  }
+}
+
+/**
+  |============================
+  | 
+  |============================
+*/
+
+/**
+  |============================
+  | 1280
+  |============================
+*/
+@media screen and (min-width: 1280px) {
+  .header-container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .header-logo-link {
+    margin-right: 60px;
+  }
+
+  .header-nav {
+    display: flex;
+    margin-right: auto;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 25px;
+  }
+
+  .header-nav-link {
+    color: var(--white, #fcf9f9);
+    font-size: 14px;
+    line-height: 1.29; /* 128.571% */
+    text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: #ecd979;
+  }
+
+  .selected {
+    color: #ecd979;
+  }
+
+  .header-adress {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .header-adress-link {
+    font-family: inherit;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.43; /* 142.857% */
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-adress-link:hover,
+  .header-adress-link:focus {
+    border-color: #ecd979;
+  }
+
+  .header-soc-list {
+    margin-right: 0;
+  }
+
+  .open-menu {
+    display: none;
+  }
+}
+
+/**
+  |============================
+  | 1440
+  |============================
+*/
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    max-width: 1440px;
+  }
+}
