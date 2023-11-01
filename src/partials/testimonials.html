@@ -3,8 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="./css/" rel="stylesheet" />
+    <title>Vyshyvanka</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--
+    <link rel="stylesheet" href="./css/main.css" />
+<link rel="stylesheet" href="./css/testimonials.css" />
+<link rel="stylesheet" href="./css/reset.css" /> -->
+
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
     <section class="section-testimonials">
@@ -12,49 +30,160 @@
         <h2 class="section-title">Testimonials</h2>
         <ul class="card-list">
           <li class="card-list-item">
-            <div class="card-container">
-              <svg class="card-icon" width="64" height="64">
-                <use href="./images/icons.svg#"></use>
-              </svg>
+            <div class="card-img-container">
+              <picture>
+                <source
+                  srcset="
+                    ./img-testimonials/Mariadesk.jpg   1x,
+                    ./img-testimonials/Maria2xdesk.jpg 2x
+                  "
+                  media="(min-width:1440px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Mariadesk.jpg   1x,
+                    ./img-testimonials/Maria2xdesk.jpg 2x
+                  "
+                  media="(min-width:1280px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Mariaxtab.jpg  1x,
+                    ./img-testimonials/Mariax2tab.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Mariamob.jpg   1x,
+                    ./img-testimonials/Maria2xmob.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  src="./img-collection/Maria.jpg"
+                  alt="Maria Tkachuk"
+                  width="64"
+                  height="64"
+                />
+              </picture>
             </div>
-            <h3 class="section-subtitle">Maria Tkachuk</h3>
-            <p class="section-text">
-              I was pleasantly surprised by the variety of embroidery offered by
-              Vyshyvanka Vibes. They have models for every taste - from classic
-              to modern. I bought an embroidered dress to celebrate a special
-              occasion and received impeccable service and refinement in every
-              detail.
-            </p>
+            <div class="card-info-container">
+              <h3 class="section-subtitle">Maria Tkachuk</h3>
+              <p class="section-text">
+                I was pleasantly surprised by the variety of embroidery offered
+                by Vyshyvanka Vibes. They have models for every taste - from
+                classic to modern. I bought an embroidered dress to celebrate a
+                special occasion and received impeccable service and refinement
+                in every detail.
+              </p>
+            </div>
           </li>
+
           <li class="card-list-item">
-            <div class="card-container">
-              <svg class="card-icon" width="64" height="64">
-                <use href="./images/icons.svg#"></use>
-              </svg>
+            <div class="card-img-container">
+              <picture>
+                <source
+                  srcset="
+                    ./img-testimonials/Sergeydesk.jpg   1x,
+                    ./img-testimonials/Sergey2xdesk.jpg 2x
+                  "
+                  media="(min-width:1440px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Sergeydesk.jpg   1x,
+                    ./img-testimonials/Sergey2xdesk.jpg 2x
+                  "
+                  media="(min-width:1280px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Sergeytab.jpg   1x,
+                    ./img-testimonials/Sergey2xtab.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Sergey.jpg      1x,
+                    ./img-testimonials/Sergeyx2tab.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  src="./img-collection/Sergey.jpg"
+                  alt="Sergey Rybachok"
+                  width="64"
+                  height="64"
+                />
+              </picture>
             </div>
-            <h3 class="section-subtitle">Sergey Rybachok</h3>
-            <p class="section-text">
-              Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
-              simply masterpieces! I fell in love with the quality of the
-              materials and the skill of the artisans behind each product. This
-              is my favorite embroidery shop where I always find something
-              special and unique.
-            </p>
+            <div class="card-info-container">
+              <h3 class="section-subtitle">Sergey Rybachok</h3>
+              <p class="section-text">
+                Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka
+                are simply masterpieces! I fell in love with the quality of the
+                materials and the skill of the artisans behind each product.
+                This is my favorite embroidery shop where I always find
+                something special and unique.
+              </p>
+            </div>
           </li>
+
           <li class="card-list-item">
-            <div class="card-container">
-              <svg class="card-icon" width="64" height="64">
-                <use href="./images/icons.svg#"></use>
-              </svg>
+            <div class="card-img-container">
+              <picture>
+                <source
+                  srcset="
+                    ./img-testimonials/Nataliadesk.jpg   1x,
+                    ./img-testimonials/Nataliax2desk.jpg 2x
+                  "
+                  media="(min-width:1440px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Nataliadesk.jpg   1x,
+                    ./img-testimonials/Nataliax2desk.jpg 2x
+                  "
+                  media="(min-width:1280px)"
+                />
+
+                <source
+                  srcset="
+                    ./img-testimonials/Nataliaxtab.jpg  1x,
+                    ./img-testimonials/Nataliax2tab.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img-testimonials/Natalia.jpg      1x,
+                    ./img-testimonials/Nataliax2tab.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+
+                <img
+                  src="./img-testimonials/Nataliadesk.jpg"
+                  alt="Natalia Chatuk"
+                  width="64"
+                  height="64"
+                />
+              </picture>
             </div>
-            <h3 class="section-subtitle">Natalia Chatuk</h3>
-            <p class="section-text">
-              Vyshyvanka Vibes is a real find for everyone who appreciates
-              Ukrainian culture. Their embroidery reflects the spirit and
-              traditions of our people. I not only buy embroidered shirts for
-              myself, but also give them to my friends abroad as a symbol of our
-              beauty and national pride.
-            </p>
+            <div class="card-info-container">
+              <h3 class="section-subtitle">Natalia Chatuk</h3>
+              <p class="section-text">
+                Vyshyvanka Vibes is a real find for everyone who appreciates
+                Ukrainian culture. Their embroidery reflects the spirit and
+                traditions of our people. I not only buy embroidered shirts for
+                myself, but also give them to my friends abroad as a symbol of
+                our beauty and national pride.
+              </p>
+            </div>
           </li>
         </ul>
       </div>
