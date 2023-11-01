@@ -1,0 +1,296 @@
+@import url('./main.css');
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  color: var(--white, #FCF9F9);
+}
+html {
+background: #1C2225;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+}
+.hero-box {
+  max-width: 320px;
+  padding: 0 15px 0 15px;
+}
+
+  
+@media screen and (min-width: 320px) {
+ 
+
+
+.hero-box {
+  padding-top: 60px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tab-box {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.hero-img {
+width: 100%;
+}
+
+.hero-title {
+width: 335px;
+height: 216px;
+margin-bottom: 20px;
+color: #FCF9F9;
+font-size: 44px;
+font-weight: 400;
+line-height: 1.13; 
+letter-spacing: -1.32px;
+}
+
+.hero-title-ukr {
+  color:#ECD979;
+}
+
+p {
+  margin: 0;
+}
+
+.hero-order-btn {
+color: var(--white, #FCF9F9);
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+gap: 10px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: transparent;
+cursor: pointer;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin-bottom: 40px;
+margin-left: 70px;
+width: 155px;
+height: 49px;
+padding: 14px 36px;
+font-size: 14px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.56px;
+}
+
+.hero-order-btn:hover,
+.hero-order-btn:focus {
+  border-color: #ECD979;
+}
+
+.hero-right-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0 auto;
+}
+
+.star-box {
+  margin-top: 14px;
+  margin-left: 15px;
+  width: 115px;
+  height: 111px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+
+.star-text {
+  color: rgba(252, 249, 249, 0.40);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  margin-top: 16px;
+}
+
+.vyshyvka-box {
+  display: none;
+}
+}
+
+/*------ MEDIA 375 ---------------------*/
+
+@media screen and (min-width: 375px) {
+  .hero-box {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .hero-img {
+    width: 335px;
+    height: 545px;
+  }
+
+}
+
+
+/*------ MEDIA 768 ---------------------*/
+
+@media screen and (min-width: 768px) {
+  
+
+  .hero-box {
+    padding: 80px 32px 0 32px;
+    display: flex;
+    max-width: 768px;
+  }
+  
+  .tab-box {
+    margin-bottom: 100px;
+  }
+
+  .hero-img {
+    width: 413px;
+    height: 575px;
+  }
+  
+  .hero-center-box {
+    width: 549px;
+  }
+  
+  .hero-title {
+  width: 549px;
+  height: 192px;
+  margin-bottom: 40px;
+  font-size: 54px;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  margin-top: 26px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .hero-order-btn {
+  margin-left: 141px;
+  width: 155px;
+  height: 49px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.56px;
+  }
+
+  .hero-right-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0 auto;
+  }
+  
+  .star-box {
+    margin-top: 14px;
+    margin-left: 15px;
+    width: 115px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .vyshyvka-box {
+    width: 139px;
+    height: 197px;
+    margin-top: 712px;
+    display: flex;
+  }
+  
+}
+
+  /*------ MEDIA 1280 ---------------------*/
+
+@media screen and (min-width: 1280px) {
+  
+
+  .hero {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+  }
+  
+  .hero-box {
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1280px;
+  }
+  
+  .tab-box {
+    flex-direction: row;
+  }
+  
+  .hero-img {
+    width: 392px;
+    height: 545px;
+  }
+  
+  .hero-center-box {
+    padding-top: 94px;
+    margin-left: 40px;
+  }
+  
+  .hero-title {
+    width: 518px;
+    height: 192px;
+    margin-left:0;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+  }
+  
+  .hero-order-btn {
+  font-size: 16px;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  width: 168px;
+  height: 50px;
+  padding: 14px 39px;
+  margin-top: 40px;
+  }
+  
+  .vyshyvka-box {
+    margin-top: 322px;
+  }
+
+  }
+  
+/*------ MEDIA 1440 ---------------------*/
+
+@media screen and (min-width: 1440px) {
+  .hero-box {
+    max-width: 1440px;
+  }
+
+  .hero-title {
+    width: 630px;
+    height: 222px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1,16;
+    letter-spacing: -1.92px;
+}
+  .hero-center-box {
+    width: 632px;
+}
+  .hero-right-box {
+    margin-left: 37px;
+}
+}

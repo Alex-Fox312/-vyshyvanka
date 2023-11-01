@@ -1,0 +1,175 @@
+.collection-cont {
+  background-image: url(../images/img-collection/elementsmob.png);
+  background-position: 0px 300px;
+  background-repeat: no-repeat;
+  max-width: 375px;
+}
+
+.section-title {
+  color: #fcf9f9;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 40px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.collection-list-item {
+  max-width: 335px;
+  border-radius: 4px;
+}
+.collection-list-title {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.collection-container {
+    white-space: nowrap;
+}
+.collection-list-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+.one-image {
+  margin-top: 80px;
+}
+.img-con {
+  border-radius: 4px;
+}
+.background-image {
+  background-image: url(../images/img-collection/Girlmob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 375px;
+  height: 550px;
+  margin: auto;
+  margin-top: 80px;
+}
+@media screen and (min-width: 375px) {
+  .collection-cont {
+    min-width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: 0.04em;
+  }
+  .collection-list-title {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .collection-list-text {
+    font-size: 18px;
+  }
+  .one-image {
+    margin-top: 150px;
+  }
+  .collection-cont {
+    background-image: url(../images/img-collection/elements.png);
+    background-position: -55px 220px;
+    min-width: 768px;
+  }
+  .background-image {
+    background-image: url(../images/img-collection/Girltab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 768px;
+    height: 776px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .collection-list-item {
+    max-width: 342px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  
+  .collection-list-item {
+    max-width: 347px;
+  }
+  .collection-cont {
+    background-image: url(../images/img-collection/elements.png);
+    background-position: 0px 222px;
+    min-width: 1280px;
+  }
+  .background-image {
+    background-image: url(../images/img-collection/Girldesk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1282px;
+    height: 776px;
+    margin: auto;
+    margin-top: 150px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .collection-list-item {
+    max-width: 400px;
+  }
+  .collection-cont {
+    background-image: url(../images/img-collection/elements.png);
+    background-position: 0px 230px;
+    min-width: 1440px;
+  }
+  .background-image {
+    background-image: url(../images/img-collection/Girl.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1440px;
+    height: 776px;
+    margin: auto;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .background-image {
+    background-image: url(../images/img-collection/Girl@2xmob.jpg);
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .background-image {
+    background-image: url(../images/img-collection/Girl@2xtab.jpg);
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width:1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .background-image {
+        background-image: url(../images/img-collection/Girl@2xdesk.jpg);
+    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .background-image {
+        background-image: url(../images/img-collection/Girl@2x.jpg);
+    }
+}
