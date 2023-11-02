@@ -6,10 +6,11 @@
 
   .about-us {
     background-color: #1c2225;
+    padding-top: 80px;
   }
 
   .about-us-container {
-    width: 305px;
+    max-width: 305px;
     margin: 0 auto;
     padding-bottom:20px;
   }
@@ -47,7 +48,7 @@
   }
   .about-us-img {
     margin: 0 auto;
-    width: 335px;
+    max-width: 335px;
     height: 499px;
     border-radius: 4px;
   }
@@ -68,15 +69,19 @@
 
 @media screen and (min-width: 375px) {
   .about-us-container {
-    width: 335px;
+    max-width: 335px;
     margin: 0 auto;
     padding-bottom: 62px;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .about-us {
+    padding-top: 0px;
+  }
+
   .about-us-container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px 50px 32px;
   }
 
@@ -99,7 +104,7 @@
     font-size: 16px;
   }
   .about-us-img {
-    width: 704px;
+    max-width: 704px;
     height: 545px;
   }
   .about-us {
@@ -117,8 +122,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
+
   .about-us-container {
-    width: 1080px;
+    max-width: 1080px;
     padding: 0 0 80px 0;
     margin: 0 auto;
   }
@@ -135,7 +142,6 @@
     margin-bottom: 40px;
   }
   .about-us-img {
-    max-width: none;
     width: 594px;
     height: 545px;
   }
@@ -155,7 +161,7 @@
 }
 @media screen and (min-width: 1440px) {
   .about-us-container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 32px 80px 32px;
   }
 
@@ -167,9 +173,8 @@
     margin-bottom: 40px;
   }
   .about-us-img {
-    max-width: none;
     width: 709px;
-    height: 545px;
+
   }
 
   .about-us {
