@@ -1,49 +1,17 @@
-p,h1,h2,h3 {
-    margin-top: 0;
-    margin-bottom: 0;
+.order-container {
+    
 }
 
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
 
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.span {
-    color: #2e2f42;
-}
-
-img {
-    display: block;
-}
-
-/* =============================================*/
-
-@import url('./main.css'); 
-
-@media screen and (min-width: 320) {
-
-.container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: #1C2225;
+.background-image {
+    background-image: url(../images/images-order/Image-order-mob-1x.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
 }
 
 .container-order {
     max-width: 335px;
-    padding: 80px 20px 81px 20px;
-    margin: 0 auto;
 }
 
 .order-img {
@@ -52,12 +20,12 @@ img {
 
 .text-order {
     color: var(--white, #FCF9F9);
-    font-family: Manrope;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: -0.03em;
     margin-bottom: 40px;
+    margin-top: 100px;
 }
 
 .text-yelow {
@@ -73,12 +41,16 @@ img {
     margin-bottom: 20px;
     padding-left: 16px;
     padding-right: 16px;
-
     color: rgba(252, 249, 249, 0.50);
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.02em;
+}
+
+.order-input:hover,
+.order-input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
 }
 
 .order-input::placeholder {
@@ -99,6 +71,11 @@ img {
     resize: none;
     background-color: transparent;
     color: rgba(252, 249, 249, 0.50);
+}
+
+.order-textarea:hover,
+.order-textarea:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
 }
 
 .order-textarea::placeholder {
@@ -131,25 +108,115 @@ img {
     fill: var(--yellow, #ECD979);
 }
 
+.order-btn:hover,
+.order-btn:focus {
+    border-color:  #ECD979;
+}
+
+
 .second-img {
     display: none;
 }
 
-}
 
-@media screen and (min-width: 375) {
+
+@media screen and (min-width: 375px) {
     .container {
         max-width: 375px;
     }
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
+
+    .order-container {
+    max-width: 768px;
+}
+
+    .background-image {
+    background-image: url(../images/images-order/Image-order-tab-1x.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 768px;
+    height: 776px;
+}
+
+    .text-order {
+    font-size: 44px;
+    line-height: 1.31;
+}
+
+    .order-input {
+        width: 508px;
+        height: 50px;
+    }
+
+    .order-textarea {
+        width: 508px;
+        height: 196px;
+    }
+
+
+    .illustration {
+    background-image: url(../images/images-order/Image-order-tab2-1x.jpeg);
+    background-repeat: no-repeat;
+    width: 638px;
+    height: 521px;
+}
+
     .container {
         max-width: 744px;
     }
 
+    .order-setion {
+        background-image: url(../images-order/ornament-1x.png);
+    }
+
     .order-img {
         width: 768px;
+    }
+
+    .input-btn {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .order-btn{
+        margin: 0;
+    }
+
+    .second-img {
+        display: block;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .background-image {
+    background-image: url(../images/images-order/Image-order-mob-2x.jpeg);
+}
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .background-image {
+    background-image: url(../images/images-order/Image-order-tab-2x.jpeg);
+}
+}
+@media screen and (min-resolution: 192dpi) and (min-width:1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .background-image {
+        background-image: url(../images/images-order/Image-order-desck-2x.jpeg);
+    }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .background-image {
+        background-image: url(../images/images-order/Image-order-desck-2x-max.jpeg);
     }
 }
 
