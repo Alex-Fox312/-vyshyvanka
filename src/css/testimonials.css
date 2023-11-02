@@ -10,7 +10,7 @@
   width: 335px;
 }
 
-.section-title {
+.section-title-testimonials {
   color: #fcf9f9;
   font-size: 32px;
   font-weight: 500;
@@ -98,7 +98,7 @@
     display: none;
   }
 
-  .section-title {
+  .section-title-testimonials {
     font-size: 44px;
     line-height: 1.45;
     letter-spacing: 0.04em;

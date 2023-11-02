@@ -26,6 +26,7 @@ p:last-child {
 }
 
 html {
+  scroll-behavior: smooth;
   background: #1c2225;
   overflow-x: hidden;
 }

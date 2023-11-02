@@ -188,6 +188,17 @@
     max-width: 375px;
   }
 }
+
+.mob-nav-container {
+  /* Определите начальные стили для скрытого меню */
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mob-nav-container.is-open {
+  /* Определите стили для видимого меню */
+  transform: translateX(0);
+}
 /**
   |============================
   | 768
