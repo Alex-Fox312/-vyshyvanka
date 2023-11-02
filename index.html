@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
+    сontent="Author: team - Seven Branches,
+    Web designer: GOIT ,
+    Type: Web-shop Vyshyvanka
+    Price: $100,
+    Products: 6 items">
     <link rel="icon" type="image/svg+xml" href="/-vyshyvanka/assets/logo-bf97e7c2.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,34 +21,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+      
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vyshyvanka Vibes</title>
     
-    <script type="module" crossorigin src="/-vyshyvanka/assets/index-ba1b90bd.js"></script>
-    <link rel="stylesheet" href="/-vyshyvanka/assets/index-9836da5f.css">
+    <script type="module" crossorigin src="/-vyshyvanka/assets/index-946a54ca.js"></script>
+    <link rel="stylesheet" href="/-vyshyvanka/assets/index-4db76bd0.css">
   </head>
   <body>
     <link rel="stylesheet" href="../css/main.css" >
 <link rel="stylesheet" href="../css/about.css" >
 
-  <section class="header-section">
+  <section class="header-section" id="header">
     <div class="container header-container">
-      <a class="header-logo-link" href="../index.html">
+      <a class="header-logo-link" href="#header">
         <img class="header-icon" src="/-vyshyvanka/assets/logo-bf97e7c2.svg" alt="vyshyvanka" />
       </a>
       <nav class="header-nav">
         <ul class="header-nav-list">
           <li class="header-nav-item">
-            <a href="" class="header-nav-link selected">About us</a>
+            <a href="#aboutus-title" class="header-nav-link">About us</a>
           </li>
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">Our collection</a>
+            <a href="#collection" class="header-nav-link">Our collection</a>
           </li>
           <li class="header-nav-item">
             <a href="" class="header-nav-link">Customer Order</a>
           </li>
           <li class="header-nav-item">
-            <a href="" class="header-nav-link">Testimonials</a>
+            <a href="#Testimonials" class="header-nav-link">Testimonials</a>
           </li>
         </ul>
       </nav>
@@ -86,7 +92,7 @@
           </a>
         </li>
       </ul>
-      <button class="open-menu" type="button">
+      <button class="open-menu open-menu-btn " type="button">
         <svg class="open-menu-icon" width="36" height="24">
           <use href="/-vyshyvanka/assets/icons-header-9a8ae2cd.svg#mob-nav"></use>
         </svg>
@@ -102,7 +108,7 @@
             +380 (68) 443-94-26
           </a>
         </address>
-        <button class="mob-close-btn">
+        <button class="mob-close-btn mob-close-btn">
           <svg class="mob-close-icon" width="36" height="36">
             <use href="/-vyshyvanka/assets/icons-header-9a8ae2cd.svg#close"></use>
           </svg>
@@ -111,16 +117,16 @@
       <nav class="mob-nav">
         <ul class="mob-nav-list">
           <li class="mob-nav-item">
-            <a href="" class="mob-nav-link">About us</a>
+            <a href="#aboutus-title" class="mob-nav-link">About us</a>
           </li>
           <li class="mob-nav-item">
-            <a href="" class="mob-nav-link">Our collection</a>
+            <a href="#collection" class="mob-nav-link">Our collection</a>
           </li>
           <li class="mob-nav-item">
             <a href="" class="mob-nav-link">Customer Order</a>
           </li>
           <li class="mob-nav-item">
-            <a href="" class="mob-nav-link">Testimonials</a>
+            <a href="#Testimonials" class="mob-nav-link">Testimonials</a>
           </li>
         </ul>
       </nav>
@@ -221,7 +227,7 @@
       <link rel="stylesheet" href="../css/main.css" />
   <link rel="stylesheet" href="../css/about.css" />
 
-<section class="section-our-collection">
+<section class="section-our-collection" id="collection">
   <div class="collection-cont container">
     <h2 class="section-title">Our collection</h2>
     <ul class="collection-list">
@@ -430,9 +436,9 @@
         <link rel="stylesheet" href="../css/main.css" >
     <link rel="stylesheet" href="../css/testimonials.css" >
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="Testimonials"> 
       <div class="testimonials-container">
-        <h2 class="section-title">Testimonials</h2>
+        <h2 class="section-title-testimonials">Testimonials</h2>
         <ul class="card-list">
           <li class="card-list-item">
             <div class="card">
@@ -579,9 +585,9 @@
   <div class="footer-container">
     <div class="footer-list">
       <ul class="footer-list-left">
-        <li class="footer-item"><a class="footer-link" href="">About us</a></li>
+        <li class="footer-item"><a class="footer-link" href="#aboutus-title">About us</a></li>
         <li class="footer-item">
-          <a class="footer-link" href="">Our collection</a>
+          <a class="footer-link" href="#collection">Our collection</a>
         </li>
       </ul>
       <ul class="footer-list-right">
@@ -589,7 +595,7 @@
           <a class="footer-link" href="">Customer order</a>
         </li>
         <li class="footer-item">
-          <a class="footer-link" href="">Testimonials</a>
+          <a class="footer-link" href="#Testimonials">Testimonials</a>
         </li>
       </ul>
     </div>
