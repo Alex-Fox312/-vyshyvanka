@@ -47,7 +47,7 @@
   }
   .about-us-img {
     margin: 0 auto;
-    width: 335px;
+    max-width: 335px;
     height: 499px;
     border-radius: 4px;
   }
