@@ -156,7 +156,12 @@
     }
 
     .order-container {
-    max-width: 768px;
+        max-width: 768px;
+        background-image: url(../images/images-order/ornament-1x.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        border: solid 1px transparent;
+        
 }
 
 .container-order {
@@ -173,8 +178,9 @@
 }
 
     .text-order {
-    font-size: 32px;
+    font-size: 44px;
     line-height: 1.37;
+    font-weight: 500;
     letter-spacing: -0.03em;
 }
 
@@ -191,8 +197,6 @@
 
     .second-img{
     display: block;
-    margin-top: 100px;
-    margin-left: auto;
 }
 
 
@@ -201,7 +205,11 @@
     }
 
     .illustration-order {
-        background-image: url(../images-order/ornament-1x.png);
+        margin-top: 100px;
+        margin-left: 98px;
+        margin-bottom: 79px;
+        background-position: bottom;
+
     }
 
     .input-btn {
@@ -241,11 +249,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .order-background-image {
         background-image: url(../images/images-order/Image-order-desck-2x-max.jpeg);
     }
+
     .order-section {
-        background-image: url(../images-order/ornament-1x.png);
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        margin-bottom: 100px;
+        
     }
 
     .text-order {
@@ -272,25 +278,48 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
         font-size: 16px;
     }
 
-    .order-btn {
-        position: absolute;
-    }
-
-    .illustration {
-        display: block;
-        
-    }
-
-    .second-img {
-        margin-top: 150px;
-        margin-left: auto;
-    }
 
 }
 
 @media screen and (min-width: 1280px) {
 
-    
+    .container {
+        min-width: 1280px;
+    }
+
+    .order-background-image {
+        width: 1282px;
+        margin-bottom: 150px;
+    }
+
+    .container-order {
+        display: flex;
+        align-content: flex-start;
+        gap: 50px;
+    }
+
+    .order-wrap {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .illustration-order {
+        order: 1;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+
+    .second-img {
+    }
+
+    .text-order {
+        width: 542px;
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+}
+
 }
 
 
